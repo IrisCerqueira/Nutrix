@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NUTRIX | Nutre, Fortalece, Conquista</title>
+  <style>
+    :root {
+      --cor-primaria: #002147; /* Azul marinho */
+      --cor-secundaria: #FFD700; /* Amarelo fosco */
+      --cor-fundo: #ffffff;
+      --cor-texto: #002147;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background-color: var(--cor-fundo);
+      color: var(--cor-texto);
+    }
+
+    header {
+      background-color: var(--cor-primaria);
+      color: var(--cor-secundaria);
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header img {
+      max-height: 100px;
+      margin-bottom: 1rem;
+    }
+
+    nav {
+      background-color: var(--cor-secundaria);
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: var(--cor-primaria);
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+
+    .container {
+      padding: 3rem 2rem;
+      max-width: 1200px;
+      margin: auto;
+      text-align: center;
+    }
+
+    section {
+      margin-bottom: 4rem;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+      color: var(--cor-primaria);
+      margin-bottom: 1.5rem;
+    }
+
+    p, li {
+      font-size: 1.5rem;
+      line-height: 2.2rem;
+      margin-bottom: 1rem;
+    }
+
+    .produto {
+      border: 2px solid var(--cor-primaria);
+      padding: 2rem;
+      margin: 2rem auto;
+      border-radius: 15px;
+      background-color: #f0f0f0;
+    }
+
+    .produto img {
+      max-width: 150px;
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      background-color: var(--cor-primaria);
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo-nutrix.png" alt="Logo da Nutrix">
+    <h1 style="font-size: 3rem;">NUTRIX</h1>
+    <p style="font-size: 1.8rem;">Nutre, Fortalece, Conquista</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre Nós</a>
+    <a href="#produtos">Produtos</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <div class="container">
+    <section id="sobre">
+      <h2>Sobre Nós</h2>
+      <p>
+        A <strong>Nutrix</strong> nasceu para suprir uma ausência: saúde e desempenho ao alcance de todos. Localizada entre academias e juventudes sedentas por evolução física e mental,
+        nossa loja promove o uso <strong>consciente</strong> e <strong>seguro</strong> de suplementos alimentares. Conectamos ciência, confiança e acessibilidade.
+      </p>
+      <img src="sobre-nos.jpg" alt="Equipe Nutrix" style="width: 100%; max-width: 600px; margin-top: 1rem;">
+    </section>
+
+    <section id="produtos">
+      <h2>Principais Produtos</h2>
+
+      <div class="produto">
+        <img src="whey.png" alt="Whey Protein">
+        <h3>Whey Protein Gold Standard</h3>
+        <p>Proteína premium para recuperação e crescimento muscular.</p>
+      </div>
+
+      <div class="produto">
+        <img src="creatina.png" alt="Creatina">
+        <h3>Creatina Monohidratada</h3>
+        <p>Explosão e potência em cada repetição. Força pura.</p>
+      </div>
+
+      <div class="produto">
+        <img src="bcaa.png" alt="BCAA">
+        <h3>BCAA 2400</h3>
+        <p>Recupere-se mais rápido, treine mais forte.</p>
+      </div>
+
+      <div class="produto">
+        <img src="c4.png" alt="C4 Pré-treino">
+        <h3>Pré-Treino C4</h3>
+        <p>Energia e foco como nunca antes. Sinta o impacto.</p>
+      </div>
+    </section>
+
+    <section id="servicos">
+      <h2>Serviços</h2>
+      <ul style="list-style: none;">
+        <li>Consultorias personalizadas com nutricionistas</li>
+        <li>Vendas presenciais e por delivery</li>
+        <li>Programa de fidelidade exclusivo</li>
+        <li>Palestras, workshops e eventos educativos</li>
+      </ul>
+      <img src="servicos.jpg" alt="Serviços Nutrix" style="width: 100%; max-width: 600px; margin-top: 1rem;">
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <p>Email: contato@nutrix.com</p>
+      <p>Instagram: @nutrix.oficial</p>
+      <p>WhatsApp: (55) 98491-0608</p>
+      <img src="contato.jpg" alt="Fale conosco" style="width: 100%; max-width: 500px; margin-top: 1rem;">
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Nutrix. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
